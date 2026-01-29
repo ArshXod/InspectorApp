@@ -1,0 +1,614 @@
+{
+  "timestamp": "Mon Dec 08 15:54:09 IST 2025",
+  "targetPID": "15528@YY359561",
+  "totalWindows": 1,
+  "windows": [
+    {
+      "visible": true,
+      "class": "javax.swing.JFrame",
+      "type": "AWT/Swing",
+      "title": "Calculator",
+      "uiTree": 
+{
+          "role": "frame",
+          "name": "Calculator",
+          "description": "null",
+          "className": "javax.swing.JFrame$AccessibleJFrame",
+          "bounds": {
+            "x": 31,
+            "y": 512,
+            "width": 376,
+            "height": 576
+          },
+          "indexInParent": -1,
+          "states": ["enabled", "focusable", "visible", "showing"],
+          "actions": [],
+          "text": null,
+          "value": null,
+          "childCount": 1,
+          "children": [
+            {
+              "role": "root pane",
+              "name": "null",
+              "description": "null",
+              "className": "javax.swing.JRootPane$AccessibleJRootPane",
+              "bounds": {
+                "x": 7,
+                "y": 30,
+                "width": 362,
+                "height": 539
+              },
+              "indexInParent": 0,
+              "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+              "actions": [],
+              "text": null,
+              "value": null,
+              "childCount": 2,
+              "children": [
+                {
+                  "role": "panel",
+                  "name": "null",
+                  "description": "null",
+                  "className": "javax.swing.JPanel$AccessibleJPanel",
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 362,
+                    "height": 539
+                  },
+                  "indexInParent": 0,
+                  "states": ["enabled", "focusable"],
+                  "actions": [],
+                  "text": null,
+                  "value": null,
+                  "childCount": 0,
+                  "children": []
+                },
+                {
+                  "role": "layered pane",
+                  "name": "null",
+                  "description": "null",
+                  "className": "javax.swing.JLayeredPane$AccessibleJLayeredPane",
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 362,
+                    "height": 539
+                  },
+                  "indexInParent": 1,
+                  "states": ["enabled", "focusable", "visible", "showing"],
+                  "actions": [],
+                  "text": null,
+                  "value": null,
+                  "childCount": 1,
+                  "children": [
+                    {
+                      "role": "panel",
+                      "name": "null",
+                      "description": "null",
+                      "className": "javax.swing.JPanel$AccessibleJPanel",
+                      "bounds": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 362,
+                        "height": 539
+                      },
+                      "indexInParent": 0,
+                      "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                      "actions": [],
+                      "text": null,
+                      "value": null,
+                      "childCount": 22,
+                      "children": [
+                        {
+                          "role": "text",
+                          "name": "null",
+                          "description": "null",
+                          "className": "javax.swing.JTextField$AccessibleJTextField",
+                          "bounds": {
+                            "x": 12,
+                            "y": 13,
+                            "width": 348,
+                            "height": 82
+                          },
+                          "indexInParent": 0,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque", "editable", "single line"],
+                          "actions": ["page-up", "caret-forward", "caret-backward", "selection-down", "selection-next-word", "cut-to-clipboard", "select-line", "selection-previous-word", "selection-begin-line", "delete-previous-word", "selection-backward", "selection-begin-paragraph", "caret-up", "caret-end-word", "unselect", "selection-page-left", "caret-end", "copy-to-clipboard", "selection-page-down", "selection-forward", "caret-end-line-and-down", "selection-end-word", "caret-previous-word", "set-read-only", "insert-tab", "beep", "insert-break", "caret-begin-word", "delete-previous", "notify-field-accept", "caret-begin-paragraph", "set-writable", "selection-end-paragraph", "page-down", "select-paragraph", "insert-content", "caret-begin", "selection-begin", "selection-page-up", "select-word", "dump-model", "selection-end", "caret-end-line", "selection-begin-word", "selection-page-right", "delete-next-word", "delete-next", "caret-begin-line-and-up", "caret-end-paragraph", "toggle-componentOrientation", "selection-end-line", "select-all", "caret-down", "paste-from-clipboard", "caret-begin-line", "default-typed", "selection-up", "caret-next-word"],
+                          "text": "",
+                          "value": null,
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "radio button",
+                          "name": "On",
+                          "description": "null",
+                          "className": "javax.swing.JRadioButton$AccessibleJRadioButton",
+                          "bounds": {
+                            "x": 12,
+                            "y": 108,
+                            "width": 74,
+                            "height": 32
+                          },
+                          "indexInParent": 1,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "radio button",
+                          "name": "Off",
+                          "description": "null",
+                          "className": "javax.swing.JRadioButton$AccessibleJRadioButton",
+                          "bounds": {
+                            "x": 12,
+                            "y": 145,
+                            "width": 74,
+                            "height": 32
+                          },
+                          "indexInParent": 2,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "<-",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 94,
+                            "y": 108,
+                            "width": 72,
+                            "height": 69
+                          },
+                          "indexInParent": 3,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "C",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 178,
+                            "y": 108,
+                            "width": 85,
+                            "height": 69
+                          },
+                          "indexInParent": 4,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "+",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 275,
+                            "y": 108,
+                            "width": 85,
+                            "height": 69
+                          },
+                          "indexInParent": 5,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "7",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 12,
+                            "y": 190,
+                            "width": 85,
+                            "height": 75
+                          },
+                          "indexInParent": 6,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "8",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 108,
+                            "y": 190,
+                            "width": 85,
+                            "height": 75
+                          },
+                          "indexInParent": 7,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "9",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 205,
+                            "y": 190,
+                            "width": 85,
+                            "height": 75
+                          },
+                          "indexInParent": 8,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "-",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 297,
+                            "y": 190,
+                            "width": 63,
+                            "height": 75
+                          },
+                          "indexInParent": 9,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "4",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 12,
+                            "y": 278,
+                            "width": 85,
+                            "height": 75
+                          },
+                          "indexInParent": 10,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "5",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 108,
+                            "y": 278,
+                            "width": 85,
+                            "height": 75
+                          },
+                          "indexInParent": 11,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "6",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 205,
+                            "y": 278,
+                            "width": 85,
+                            "height": 75
+                          },
+                          "indexInParent": 12,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "x",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 297,
+                            "y": 278,
+                            "width": 63,
+                            "height": 75
+                          },
+                          "indexInParent": 13,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "1",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 12,
+                            "y": 366,
+                            "width": 85,
+                            "height": 75
+                          },
+                          "indexInParent": 14,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "2",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 108,
+                            "y": 366,
+                            "width": 85,
+                            "height": 75
+                          },
+                          "indexInParent": 15,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "3",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 205,
+                            "y": 366,
+                            "width": 85,
+                            "height": 75
+                          },
+                          "indexInParent": 16,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "/",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 297,
+                            "y": 366,
+                            "width": 63,
+                            "height": 75
+                          },
+                          "indexInParent": 17,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "0",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 12,
+                            "y": 454,
+                            "width": 56,
+                            "height": 75
+                          },
+                          "indexInParent": 18,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "%",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 149,
+                            "y": 454,
+                            "width": 74,
+                            "height": 75
+                          },
+                          "indexInParent": 19,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": ".",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 81,
+                            "y": 454,
+                            "width": 56,
+                            "height": 75
+                          },
+                          "indexInParent": 20,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "role": "push button",
+                          "name": "=",
+                          "description": "null",
+                          "className": "javax.swing.JButton$AccessibleJButton",
+                          "bounds": {
+                            "x": 236,
+                            "y": 454,
+                            "width": 124,
+                            "height": 75
+                          },
+                          "indexInParent": 21,
+                          "states": ["enabled", "focusable", "visible", "showing", "opaque"],
+                          "actions": ["click"],
+                          "text": null,
+                          "value": {
+                            "current": 0,
+                            "min": 0,
+                            "max": 1
+                          },
+                          "childCount": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }    }
+  ]
+}

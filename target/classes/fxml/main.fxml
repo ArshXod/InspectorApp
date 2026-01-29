@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="com.inspector.gui.controller.MainController"
+            prefWidth="1200" prefHeight="800">
+    
+    <!-- Top Toolbar -->
+    <top>
+        <VBox styleClass="toolbar-container">
+            <HBox styleClass="toolbar" spacing="10" alignment="CENTER_LEFT">
+                <padding>
+                    <Insets top="10" bottom="10" left="15" right="15"/>
+                </padding>
+                
+                <Label text="PHILIPS INSPECTOR" styleClass="title-label"/>
+                
+                <Region HBox.hgrow="ALWAYS"/>
+                
+                <TextField fx:id="searchField" promptText="Search processes..." prefWidth="250"/>
+                <ComboBox fx:id="filterComboBox" prefWidth="150"/>
+                <Button fx:id="refreshButton" text="Refresh" onAction="#handleRefresh"/>
+                <CheckBox fx:id="autoRefreshCheckBox" text="Auto-refresh"/>
+                <ToggleButton fx:id="darkModeToggle" text="🌙" onAction="#handleDarkModeToggle"/>
+            </HBox>
+            
+            <!-- Status Bar -->
+            <HBox styleClass="status-bar" spacing="10" alignment="CENTER_LEFT">
+                <padding>
+                    <Insets top="5" bottom="5" left="15" right="15"/>
+                </padding>
+                <Label fx:id="statusLabel" text="Ready"/>
+                <Region HBox.hgrow="ALWAYS"/>
+                <ProgressBar fx:id="progressBar" prefWidth="200" visible="false"/>
+            </HBox>
+        </VBox>
+    </top>
+    
+    <!-- Center Content -->
+    <center>
+        <SplitPane dividerPositions="0.5" orientation="VERTICAL">
+            
+            <!-- Process List -->
+            <VBox>
+                <padding>
+                    <Insets top="10" bottom="10" left="15" right="15"/>
+                </padding>
+                
+                <Label text="Running Processes" styleClass="section-header"/>
+                
+                <TableView fx:id="processTable" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="pidColumn" text="PID" prefWidth="80"/>
+                        <TableColumn fx:id="nameColumn" text="Process Name" prefWidth="200"/>
+                        <TableColumn fx:id="titleColumn" text="Window Title" prefWidth="350"/>
+                        <TableColumn fx:id="typeColumn" text="Type" prefWidth="100"/>
+                    </columns>
+                </TableView>
+                
+                <HBox spacing="10" alignment="CENTER_LEFT">
+                    <padding>
+                        <Insets top="10"/>
+                    </padding>
+                    <Button fx:id="inspectButton" text="Inspect Selected Process" onAction="#handleInspect" 
+                            styleClass="primary-button"/>
+                    <Label text="Select a process and click Inspect to generate UI structure JSON"/>
+                </HBox>
+            </VBox>
+            
+            <!-- Bottom Section: Preview and History -->
+            <SplitPane dividerPositions="0.6">
+                
+                <!-- Preview Pane -->
+                <VBox>
+                    <padding>
+                        <Insets top="10" bottom="10" left="15" right="15"/>
+                    </padding>
+                    
+                    <Label text="Inspection Preview" styleClass="section-header"/>
+                    <TextArea fx:id="previewTextArea" VBox.vgrow="ALWAYS" editable="false" 
+                              wrapText="false" promptText="Inspection results will appear here..."/>
+                </VBox>
+                
+                <!-- History Pane -->
+                <VBox>
+                    <padding>
+                        <Insets top="10" bottom="10" left="15" right="15"/>
+                    </padding>
+                    
+                    <Label text="Inspection History" styleClass="section-header"/>
+                    
+                    <TableView fx:id="historyTable" VBox.vgrow="ALWAYS">
+                        <columns>
+                            <TableColumn fx:id="historyPidColumn" text="PID" prefWidth="60"/>
+                            <TableColumn fx:id="historyNameColumn" text="Process" prefWidth="150"/>
+                            <TableColumn fx:id="historyTimeColumn" text="Timestamp" prefWidth="150"/>
+                        </columns>
+                    </TableView>
+                    
+                    <HBox spacing="10" alignment="CENTER_LEFT">
+                        <padding>
+                            <Insets top="10"/>
+                        </padding>
+                        <Button fx:id="openFileButton" text="Open File" onAction="#handleOpenFile"/>
+                        <Button fx:id="clearHistoryButton" text="Clear History" onAction="#handleClearHistory"/>
+                        <ToggleButton fx:id="highlightToggle" text="🔍 Highlight Mode" onAction="#handleHighlightToggle"/>
+                    </HBox>
+                </VBox>
+                
+            </SplitPane>
+        </SplitPane>
+    </center>
+    
+</BorderPane>
