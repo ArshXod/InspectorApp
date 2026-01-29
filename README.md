@@ -32,11 +32,14 @@ That's it! The GUI will launch showing all running applications.
 ### Option 2: Command Line
 ```powershell
 # Set environment variables
-$env:JAVA_HOME = "C:\Users\320301165\AppData\Local\Programs\Eclipse Adoptium\jdk-25.0.1.8-hotspot"
-$env:PATH = "C:\Users\320301165\apache-maven-3.9.6\bin;" + $env:PATH
+$env:JAVA_HOME = // Your java Path here
+$env:PATH = // Your maven.bin path here + $env:PATH
 
 # Build first (only needed once)
 mvn clean package
+
+# Now You can run
+mvn javafx:run
 
 # Find the process ID
 Get-Process | Where-Object {$_.MainWindowTitle} | Format-Table Id, Name, MainWindowTitle
